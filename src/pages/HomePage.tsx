@@ -72,7 +72,7 @@ const HomePage = () => {
             </Col>
           </Row>
         </Container>
-        <div className="fixed-button">
+        <div className="shopping-cart-button">
           <button className="btn btn-lg  rounded-1 mb-xs-0 mb-2 fw-bold">
             <Lottie
               className=" animate__animated animate__lightSpeedInRight"

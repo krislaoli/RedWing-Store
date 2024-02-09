@@ -83,13 +83,7 @@
   height: 100%;
   z-index: 0;
 } */
-.fixed-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-  width: 100px;
-}
+
 header {
   background: #c6ffdd;
   background: -webkit-linear-gradient(to left, #6c4f83, #e5cff7, #dedede);
@@ -126,6 +120,13 @@ header {
   margin-top: 40px;
 }
 
+.shopping-cart-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 100px;
+}
 @media screen and (max-width: 992px) {
   .navbar {
     background-color: #00acee;
